@@ -20,7 +20,7 @@ for (const line of input) {
             switch (crateMover) {
                 case 9000:
                     for (let i = parseInt(cmd[1]); i > 0; --i) {
-                        containers[parseInt(cmd[3]) - 1].unshift(containers[parseInt(cmd[2]) - 1].shift() ?? 'OHNO');
+                        containers[parseInt(cmd[3]) - 1].unshift(containers[parseInt(cmd[2]) - 1].shift() ?? '🖕');
                     }
                     break;
                 case 9001:
